@@ -1,0 +1,20 @@
+{
+  "name": "cadio",
+  "version": "0.1.0",
+  "description": "Plan meals and manage grocery lists with Cadio.",
+  "author": {
+    "name": "jbrocher"
+  },
+  "repository": "https://github.com/jbrocher/cadio-pantry",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Cadio",
+    "shortDescription": "Plan meals and build your grocery list.",
+    "longDescription": "Create saved menus, view recipe cards, replace recipes, and build grocery lists using Cadio and its meal-planning skill. Requires a Cadio connection.",
+    "developerName": "jbrocher",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "defaultPrompt": ["Plan five dinners for two with Cadio.", "Make a grocery list from my Cadio menu."]
+  },
+  "mcpServers": "./.mcp.json"
+}

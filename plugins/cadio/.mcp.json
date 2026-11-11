@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cadio": {
+      "type": "http",
+      "url": "https://cadio.fly.dev/mcp"
+    }
+  }
+}
