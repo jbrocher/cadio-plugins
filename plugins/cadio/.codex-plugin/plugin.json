@@ -1,11 +1,11 @@
 {
   "name": "cadio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plan meals and manage grocery lists with Cadio.",
   "author": {
     "name": "jbrocher"
   },
-  "repository": "https://github.com/jbrocher/cadio-pantry",
+  "repository": "https://github.com/jbrocher/cadio-plugins",
   "skills": "./skills/",
   "interface": {
     "displayName": "Cadio",

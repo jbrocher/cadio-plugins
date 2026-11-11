@@ -1,6 +1,6 @@
 {
-  "name": "cadio-pantry",
-  "interface": {"displayName": "Cadio Pantry"},
+  "name": "cadio-plugins",
+  "interface": {"displayName": "Cadio"},
   "plugins": [
     {
       "name": "cadio",
