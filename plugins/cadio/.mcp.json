@@ -2,7 +2,17 @@
   "mcpServers": {
     "cadio": {
       "type": "http",
-      "url": "https://cadio.fly.dev/mcp"
+      "url": "https://cadio.fly.dev/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
     }
   }
 }
