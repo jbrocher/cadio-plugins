@@ -1,10 +1,10 @@
 interface:
   display_name: "Plan meals with Cadio"
-  short_description: "Plan saved menus and manage grocery lists"
+  short_description: "Plan meals and manage grocery lists and pantry staples"
 dependencies:
   tools:
     - type: "mcp"
       value: "cadio"
-      description: "Cadio menus, recipe cards, and grocery lists"
+      description: "Cadio menus, recipes, grocery lists, and pantry tools"
       transport: "streamable_http"
       url: "https://cadio.fly.dev/mcp"

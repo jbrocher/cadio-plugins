@@ -1,7 +1,7 @@
 # Cadio
 
 A plugin marketplace for Cadio: plan meals, view recipe cards, swap recipes,
-and build grocery lists in ChatGPT desktop or Codex.
+build grocery lists, and review pantry staples in ChatGPT desktop or Codex.
 
 ## Install
 
@@ -17,6 +17,7 @@ start a new conversation. The plugin includes the **Plan meals with Cadio** skil
 
 Try: "Use Cadio to plan five dinners for two, ready in 30 minutes."
 Then: "Make a grocery list from that menu."
+Then: "Apply my pantry to that grocery list."
 
 This MVP targets clients supporting repository marketplaces. It is not a listing
 in OpenAI's public directory, and registering this source does not establish
@@ -25,7 +26,7 @@ availability in ChatGPT web or mobile. See the official
 
 ## Connection and data
 
-The plugin connects to `https://cadio.fly.dev/mcp`. Menus and grocery lists are
+The plugin connects to `https://cadio.fly.dev/mcp`. Menus, grocery lists, and pantry staples are
 saved by the hosted Cadio service under your authenticated account. Recipe
 searches use Spoonacular. The service must be running and your account must be
 able to authenticate; installing this repository does not run the backend.
